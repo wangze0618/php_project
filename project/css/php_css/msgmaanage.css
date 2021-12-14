@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-shadow: rgba(177, 177, 177, 0.9) 0px 0px 1.5px;
+  border-color: #ccc !important;
+}
+
+#header {
+  background-color: #fff;
+}
+
+#header a {
+  margin: 0 auto;
+}
+
+.msg {
+  -webkit-box-shadow: gray 1px 3px 10px 1px;
+  box-shadow: gray 1px 3px 10px 1px;
+  border-radius: 5px;
+  font-size: 17px;
+  color: #3b3b3b;
+  background-color: white !important;
+  margin-top: 18px !important;
+}
+
+.a-items {
+  margin-top: 6px !important;
+}
+
+.a-items span {
+  display: inline-block;
+  background-color: #fff;
+  width: 70px !important;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.a-items a {
+  color: black !important;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #fff;
+  width: 80px !important;
+  border-radius: 5px;
+}
+
+.a-items a,
+.a-items span {
+  color: black !important;
+  font-size: 15px;
+  line-height: 25px;
+  height: 25px;
+  border: 1px solid #cecece !important;
+}
+
+table:nth-child(1) {
+  width: 800px;
+  border: 1px solid pink !important;
+}
+
+tbody {
+  color: #fff;
+  text-align: center;
+}
+
+tbody a {
+  display: inline-block;
+  color: #fff;
+}
+
+tbody a:hover {
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+tbody tr th,
+tbody td {
+  width: auto;
+  height: 40px;
+  border: 1px solid pink !important;
+}
+
+#content {
+  background: url(../../images/bg.jfif) no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+#content #content_left,
+#content #content_right {
+  background-color: transparent;
+}
+
+#content_detalis {
+  width: 920px;
+  font-size: 19px;
+  padding: 20px 15px 30px 15px;
+  height: 540px;
+  backdrop-filter: blur(10px) !important;
+  border-radius: 20px;
+}
+
+#content_detalis h1 {
+  font-weight: 200px !important;
+  margin-bottom: 12px;
+}
+
+#content_left {
+  height: 100%;
+  font-size: 19px;
+  backdrop-filter: blur(10px) !important;
+  border: 2px solid transparent !important;
+}
+
+#content_left ul li {
+  height: 60px;
+}
+
+#content_left ul li a {
+  background-color: rgba(134, 123, 116, 0.3);
+  display: inline-block;
+  color: #fff;
+  height: 60px;
+  line-height: 60px;
+}
+
+#content_left ul li a:hover {
+  color: #867b74 !important;
+}
+
+/*# sourceMappingURL=mainbox.css.map */

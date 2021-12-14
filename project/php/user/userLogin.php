@@ -33,7 +33,7 @@ session_start();
 
 <body>
     <header class="w">
-        <a href="../index.php"><img src="../../images/logo.png" alt=""></a>
+        <a href="../../index.php"><img src="../../images/logo.png" alt=""></a>
     </header>
     <div class="login-bar w">
         <h3>登陆</h3>

@@ -23,7 +23,7 @@ session_start();
     </div>
     <div id="nav">
         <ul>
-            <li><a href="../index.php">首页</a></li>
+            <li><a href="../../index.php">首页</a></li>
             <li><a href="">服装馆</a></li>
             <li><a href="">美妆馆</a></li>
             <li><a href="">传智超市</a></li>

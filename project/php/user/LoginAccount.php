@@ -5,6 +5,15 @@ session_start();
 $username = $_POST['username'];
 $password = $_POST['password'];
 
+if (!$username) {
+    echo "<script>alert('请填写账号！')</script>";
+}
+if (!$password) {
+    echo ("<script>alert('请填写密码！')</script>");
+    die("<script>loaction.href='./userLogin.php'</script>");
+}
+
+
 $conn->query('SET NAMES UTF8');
 $sql = "SELECT username,password FROM user";
 $result = $conn->query($sql);

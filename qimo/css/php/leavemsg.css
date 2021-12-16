@@ -1,0 +1,56 @@
+#msg {
+  width: 600px;
+  line-height: 50px;
+  margin: 0 auto;
+}
+
+#msg p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#msg p input[type="text"] {
+  width: 200px;
+  height: 25px;
+  border-radius: 8px;
+  border: none;
+}
+#msg > form > p:nth-child(4) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#msg p textarea {
+  width: 200px;
+  border-radius: 8px;
+  border: none;
+}
+/* .width {
+    display: inline-block;
+    width: 80px;
+  } */
+#msg > form > p:nth-child(6) {
+  margin-left: 50px;
+}
+#msg > form > p:nth-child(6) input {
+  display: inline-block;
+  height: 25px;
+  width: 75px;
+  margin-left: 20px;
+  border-radius: 8px;
+  border: none;
+}
+#header {
+  padding-top: 20px !important;
+  background-color: #a14730;
+  text-align: center;
+}
+#footer {
+  margin-top: 50px;
+  background-color: #fff;
+}
+#nav {
+}
+#header > a > img {
+  /* width: ; */
+}

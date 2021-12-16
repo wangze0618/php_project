@@ -9,7 +9,7 @@ $result1 = $conn->query($sql1);
 $count = $result1->num_rows;
 
 // 每页显示几条数据
-$pageSize = 6;
+$pageSize = 4;
 
 // 总页数
 $totalPage = ceil($count / $pageSize);
@@ -40,31 +40,29 @@ while ($row = $result2->fetch_assoc()) {
 <head>
     <meta charset="utf-8">
     <title></title>
-    <link rel="stylesheet" href="../../css/php_css/main.css">
-    <link rel="stylesheet" href="../../css/php_css/bookinfo.css">
-    <link rel="stylesheet" href="../../css/php_css/mainbox.css">
+    <link rel="stylesheet" href="../../css/php/main-new.css">
+    <link rel="stylesheet" href="../../css/php/bookinfo.css">
+    <link rel="stylesheet" href="../../css/php/mainbox.css">
 </head>
 
 <body>
-    <div id="header"><a href="../../index.php"><img src="../../images/logo.png" alt="" srcset=""></a></div>
+    <div id="header"><img src="../../img/logo.png " alt="" srcset=""></div>
     <div id="nav">
-        <ul>
-            <li><a href="../../index.php">首页</a></li>
-            <li><a href="">服装馆</a></li>
-            <li><a href="">美妆馆</a></li>
-            <li><a href="">传智超市</a></li>
-            <li><a href="">全球购</a></li>
-            <li><a href="./msginfo.php">留言板</a></li>
-            <li><a href="">闪购</a></li>
-            <li><a href="">团购</a></li>
-            <li><a href="">有趣</a></li>
+        <ul class='flexbox'>
+            <li><a href="../../index.php">蛋糕小超市</a></li>
+            <li><a href="">线下店铺</a></li>
+            <li><a href="">店铺地图</a></li>
             <li><a href="">关于我们</a></li>
+            <li><a href="">登录</a></li>
+            <li><a href="">注册</a></li>
+            <!-- <li><a href="../user/msginfo.php">留言板</a></li> -->
         </ul>
     </div>
     <div id="content">
+        <video src="../../img/111.mp4" autoplay muted loop></video>
         <div id="content_details">
             <h2 align=center>留言板</h2>
-            <p align=center>如果你有什么问题需要咨询的话，请单击<a href="./leavemsg.php">留言</a>给我留言，我们会第一时间给你答复。</p>
+            <p align=center>如果你有什么问题需要咨询的话，请单击<a href="../user/leavemsg.php">留言</a>给我留言，我们会第一时间给你答复。</p>
             <?php foreach ($rows as $value) { ?>
             <div class="msg">
                 <div class="msg_person">&nbsp;留言人&nbsp; &nbsp;：<?php echo $value['msguser'] ?></div>

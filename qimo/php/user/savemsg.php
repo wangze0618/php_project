@@ -12,12 +12,12 @@ $sql = "INSERT INTO gbook(msguser,subject,content,riqi,passid) VALUES ('$msguser
 
 //判断sql语句执行情况
 if ($conn->query($sql)) {
-	echo "<script>
-	alert('留言成功！');
+    echo "<script>
+	alert('数据插入成功！');
 	location.href='msginfo.php';
 	</script>";
 } else {
-	die('留言失败,' . $conn->error);
+    die('数据插入失败,' . $conn->error);
 }
 
 $conn->close();

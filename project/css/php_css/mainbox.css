@@ -1,13 +1,13 @@
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   text-shadow: rgba(177, 177, 177, 0.9) 0px 0px 1.5px;
   border-color: #ccc !important;
 }
 
 .msg {
   -webkit-box-shadow: gray 1px 3px 10px 1px;
-          box-shadow: gray 1px 3px 10px 1px;
+  box-shadow: gray 1px 3px 10px 1px;
   border-radius: 5px;
   font-size: 17px;
   color: #3b3b3b;
@@ -41,5 +41,16 @@
   line-height: 25px;
   height: 25px;
   border: 1px solid #cecece !important;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+}
+#content_details > p > a {
+  color: red;
+  padding: 2px;
+  background-color: rgba(255, 255, 255, 0.863);
+  border-radius: 5px;
 }
 /*# sourceMappingURL=mainbox.css.map */

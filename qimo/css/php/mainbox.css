@@ -123,4 +123,6 @@ h2 {
 .a-items a {
   color: white;
 }
-/*# sourceMappingURL=main.css.map */
+#msg p {
+  color: #fff;
+}

@@ -16,7 +16,7 @@ if ($rows) {
 	$_SESSION['username'] = $username;
 	echo '<script>
 	alert("登录成功！");
-	location.href="./index-new.php";
+	location.href="../admin/msgmanage.php";
 	</script>';
 } else {
 	echo '<script>

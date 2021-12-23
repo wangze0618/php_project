@@ -1,0 +1,26 @@
+#content {
+  background: url(../../img/123sb.webp) no-repeat center;
+  background-size: cover;
+  color: #fff;
+}
+
+#content_right {
+  background-color: transparent !important;
+  color: #fff;
+}
+#content_left {
+  background-color: transparent !important;
+  color: #fff;
+}
+#content_left a {
+  color: #fff;
+}
+#content_left a:hover {
+  color: #000;
+}
+#content_detalis a {
+  color: #fff;
+}
+#header {
+  background-color: #a14730;
+}

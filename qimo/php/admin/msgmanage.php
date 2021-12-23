@@ -42,13 +42,14 @@ while ($row = $result2->fetch_assoc()) {
     <title></title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="../../css/php/main-new.css">
-    <link rel="stylesheet" href="../../css/css/msgmanage.css">
+    <link rel="stylesheet" href="../../css/php/msg.css">
 </head>
 
 <body>
     <div id="header">
         <a href="#"><img src="../../images/logo.png" alt="" srcset=""></a>
-        <div id="yh"><span><?php echo $_SESSION['username'] ?>欢迎你</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">退出登录</a>
+        <div id="yh"><span><?php echo $_SESSION['username'] ?>欢迎你</span>&nbsp;&nbsp;&nbsp;&nbsp;<a
+                href="../admin/logout.php">退出登录</a>
         </div>
     </div>
     <div id="content">

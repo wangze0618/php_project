@@ -1,6 +1,13 @@
 <?php
 include '../connect.php';
 session_start();
+if (!$_SESSION['username']) {
+    echo "<script>
+    alert('尚未登录');
+    location.href='../user/userLogin.php'</script>";
+} else {
+    echo $_SESSION['username'];
+}
 
 
 

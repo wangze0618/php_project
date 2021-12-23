@@ -16,7 +16,7 @@ if ($conn->query($sql)) {
 	$_SESSION['username'] = $username;
 	echo '<script>
 	alert("登录成功！");
-	location.href="./index-new.php";
+	location.href="../user/msginfo.php";
 	</script>';
 } else {
 	echo '<script>

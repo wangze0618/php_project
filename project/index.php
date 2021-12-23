@@ -151,7 +151,7 @@
                         <a href="./erji.html" target="_blank">拍卖</a>
                     </li>
                     <li>
-                        <a href="./erji.html" target="_blank">有趣</a>
+                        <a href="./bbs/index.php" target="_blank">BBS论坛</a>
                     </li>
                     <li>
                         <a href="./php/user/msginfo.php" target="_blank">留言板</a>

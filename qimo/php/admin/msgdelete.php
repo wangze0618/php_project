@@ -8,12 +8,12 @@ $sql = "DELETE FROM gbook WHERE id=$id";
 
 //判断sql语句执行情况
 if ($conn->query($sql)) {
-    echo '<script>
+	echo '<script>
 	alert("数据删除成功！");
-	location.href="../user/msginfo.php";
+	location.href="../admin/msgmanage.php";
 	</script>';
 } else {
-    die('数据删除失败,' . $conn->error);
+	die('数据删除失败,' . $conn->error);
 }
 
 $conn->close();

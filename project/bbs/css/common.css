@@ -1,0 +1,21 @@
+* {
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-size: 14px !important;
+}
+
+#td1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+
+#car1 {
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.redFooter {
+  background-color: #C40000 !important;
+}
+/*# sourceMappingURL=common.css.map */

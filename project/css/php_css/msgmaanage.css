@@ -101,7 +101,8 @@ tbody td {
   font-size: 19px;
   padding: 20px 15px 30px 15px;
   height: 540px;
-  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+          backdrop-filter: blur(10px) !important;
   border-radius: 20px;
 }
 
@@ -113,7 +114,8 @@ tbody td {
 #content_left {
   height: 100%;
   font-size: 19px;
-  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+          backdrop-filter: blur(10px) !important;
   border: 2px solid transparent !important;
 }
 
@@ -132,5 +134,4 @@ tbody td {
 #content_left ul li a:hover {
   color: #867b74 !important;
 }
-
-/*# sourceMappingURL=mainbox.css.map */
+/*# sourceMappingURL=msgmaanage.css.map */

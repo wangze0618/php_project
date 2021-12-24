@@ -4,6 +4,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>管理者登录</title>
+    <link rel="stylesheet" href="./css/admin_login.css">
     <style type="text/css">
     .STYLE3 {
         font-size: 14px

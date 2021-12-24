@@ -3,6 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>新增讨论主题</title>
+    <link rel="stylesheet" href="../bbs/css/common.css">
     <style type="text/css">
     body {
         margin-top: 0px;
@@ -58,8 +59,8 @@
 <body>
 
     <table width="764" border="0" align="center" cellpadding="0" cellspacing="0">
-        <tr>
-            <td width="764"><img src="images/1副本.gif" width="764" height="179" /></td>
+        <tr id="tr1">
+            <td width="764" id="td1"><img id="car1" src="../images/logo.png" /></td>
         </tr>
 
         <tr>
@@ -145,9 +146,9 @@
                                                 <textarea name="bbs_content" cols="45" rows="8"
                                                     id="bbs_content"></textarea>
                                                 <input type="hidden" name="bbs_time" id="bbs_time" value="<?php
-                                                                                  date_default_timezone_set('Asia/Shanghai');
-                                                                                  echo date("Y-m-d");
-                                                                                  ?>
+                                                                                                            date_default_timezone_set('Asia/Shanghai');
+                                                                                                            echo date("Y-m-d");
+                                                                                                            ?>
 ">
                                                 <input name="bbs_hits" type="hidden" id="bbs_hits" value="0">
                                             </label></td>
@@ -164,7 +165,7 @@
                         </td>
                     </tr>
                     <tr style="text-align: center">
-                        <td height="40" bgcolor="#4DAFFE">
+                        <td height="40" class="redFooter">
                             <p><span class="STYLE28"> Copyright @ 2017 www.17skill.com Inc.All rights reserved.
                                     PHP论坛管理系统 </span></p>
                         </td>

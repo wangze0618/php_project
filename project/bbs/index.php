@@ -4,6 +4,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>论坛管理系统</title>
+    <link rel="stylesheet" href="../bbs/css/common.css">
     <style type="text/css">
     body {
         margin-top: 0px;
@@ -54,14 +55,24 @@
         font-size: 13px;
         color: #FFFFFF;
     }
+
+    #td1 {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    #car1 {
+        margin: 0 auto;
+        display: inline-block;
+    }
     </style>
 </head>
 
 <body>
 
     <table width="764" border="0" align="center" cellpadding="0" cellspacing="0">
-        <tr>
-            <td width="764"><img src="images/1副本.gif" width="764" height="179" /></td>
+        <tr id="tr1">
+            <td width="764" id="td1"><img id="car1" src="../images/logo.png" /></td>
         </tr>
 
         <tr>
@@ -224,7 +235,8 @@
                         <td width="100%" height="20">&nbsp;</td>
                     </tr>
                     <tr style="text-align: center">
-                        <td height="40" bgcolor="#4DAFFE"><span class="STYLE28">Copyright @ 2017 www.17skill.com Inc.All
+                        <td height="40" class="redFooter"><span class="STYLE28">Copyright @
+                                wangze0618|github.All
                                 rights reserved. PHP论坛管理系统</span></td>
                     </tr>
                 </table>

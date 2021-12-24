@@ -1,0 +1,9 @@
+body {
+  color: #fff;
+  background: url(../../images/bg.jfif) no-repeat;
+  background-size: cover;
+}
+
+#form1 > table > tbody > tr:nth-child(1) > td {
+  font-size: 20px;
+}
